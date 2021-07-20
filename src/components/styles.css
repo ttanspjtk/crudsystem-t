@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400&display=swap');
+
+* {
+    font-family: 'Sarabun', sans-serif;
+}
+
+.header {
+    text-decoration: none;
+    color: #bbb;
+}
+.header:hover {
+    color: #fff;
+}
+
+.homepage {
+    background-image: url('https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4em;
+    font-size: 400%;
+}
+h2:hover {
+    transform: scale(1.5);
+    color: #444;    
+    letter-spacing: .1em;
+}
+
+.footer {
+    background: #212529;
+    color: #fff;
+    height: 4rem;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+}
+
+a {
+    display: flex;
+    float: right;
+}
+
+.footer__icon:hover {
+    height: 20px;
+    opacity: 0.7;
+}
+
+.notfound {
+    background-image: url('/src/img/error.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    width: 100%;
+}
